@@ -15,16 +15,16 @@
   
     <meta name="keywords" content="" />
   
-  <meta name="description" content="#Hello world!##Hello Hello world!*斜体你好**粗体你好***粗斜体你好">
+  <meta name="description" content="Hello world!Hello Hello world! 斜体你好  粗体你好   ** 粗斜体你好">
 <meta property="og:type" content="article">
 <meta property="og:title" content="测试测试">
 <meta property="og:url" content="http://example.com/2021/11/23/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#Hello world!##Hello Hello world!*斜体你好**粗体你好***粗斜体你好">
+<meta property="og:description" content="Hello world!Hello Hello world! 斜体你好  粗体你好   ** 粗斜体你好">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/null">
 <meta property="article:published_time" content="2021-11-23T14:07:01.000Z">
-<meta property="article:modified_time" content="2021-11-23T14:12:38.085Z">
+<meta property="article:modified_time" content="2021-11-23T14:20:43.637Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/null">
@@ -172,7 +172,7 @@
                     <i class="fa fa-edit"></i> 
                     
                     
-                        53
+                        54
                     
                     字
                 </li>
@@ -181,11 +181,18 @@
         </header>
         <div class="kratos-post-content">
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                本文最后编辑于 <time datetime="1637676758085"></time> 前，其中的内容可能需要更新。
+                本文最后编辑于 <time datetime="1637677243637"></time> 前，其中的内容可能需要更新。
             </div>
             
             <hr />
-            <p>#Hello world!<br>##Hello Hello world!<br>*斜体你好<br>**粗体你好<br>***粗斜体你好</p>
+            <h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!"></a>Hello world!</h1><h2 id="Hello-Hello-world"><a href="#Hello-Hello-world" class="headerlink" title="Hello Hello world!"></a>Hello Hello world!</h2><ul>
+<li>斜体你好</li>
+<li><ul>
+<li>粗体你好</li>
+</ul>
+</li>
+<li>** 粗斜体你好</li>
+</ul>
 
         </div>
         
@@ -253,7 +260,14 @@
             const twitterBase   = "https://twitter.com/intent/tweet?";
             const hostUrl       = "http://example.com/2021/11/23/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/";
             const title         = "「测试测试」";
-            const excerpt       = `#Hello world!##Hello Hello world!*斜体你好**粗体你好***粗斜体你好
+            const excerpt       = `Hello world!Hello Hello world!
+斜体你好
+
+粗体你好
+
+
+** 粗斜体你好
+
 `;
             let _URL;
             switch (dest) {
